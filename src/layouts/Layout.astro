@@ -1,0 +1,65 @@
+---
+export interface Props {
+	title: string;
+}
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import '../css/main.css'
+
+const { title } = Astro.props as Props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<meta name="generator" content={Astro.generator} />
+	<title>{title}</title>
+</head>
+
+<body class="min-h-screen flex flex-col flex-1 h-full">
+	<Header />
+	<div class="container mx-auto bg-lime-300 flex flex-grow">
+		<slot />
+	</div>
+	<Footer />
+
+	<script type="application/ld+json" is:inline>
+		{
+			"@context": "http://schema.org",
+				"@type": "LocalBusiness",
+					"address": {
+				"@type": "PostalAddress",
+					"addressLocality": "Sutherland Shire",
+						"addressRegion": "NSW",
+							"postalCode": "2232",
+								"streetAddress": "13 Sunbury Street"
+			},
+			"description": "Kathryn Bloomer Interiors delivers unique and bespoke interiors for residential clients throughout Sydney. Skilled in Interior Design and Decorating we strive to deliver beautiful homes specialising in quality products, materials and workmanship. Services include interior design, interior decoration, custom made furniture, upholstery, bathroom design, bedroom design, living room design, accessories and art sourcing.",
+				"name": "Kathryn Bloomer Interiors",
+					"telephone": "0412579330",
+						"openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+							"geo": {
+				"@type": "GeoCoordinates",
+					"latitude": "-34.0228239",
+						"longitude": "151.0564233"
+			},
+			"hasMap": "https://www.google.com.au/maps/place/13+Sunbury+St,+Sutherland+NSW+2232/@-34.0228239,151.0564233,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12c75076632dcd:0x8fc987673bf412a8!8m2!3d-34.0228284!4d151.058612",
+				"email": "enquiries@kathrynbloomerinteriors.com.au",
+					"url": "https://kathrynbloomerinteriors.com.au",
+						"logo": "https://kathrynbloomerinteriors.com.au/Logo.svg",
+							"image": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto/v1568771484/KBI/projects/lilli_pilli/hhdpgjnsro4ephhjdxpt.jpg",
+								"sameAs": [
+									"https://www.facebook.com/kathrynbloomerinteriors/",
+									"https://www.instagram.com/kathryn.bloomer.interiors/"
+								]
+		}
+	</script>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6257594b8f26563f" is:inline></script> -->
+</body>
+
+</html>
