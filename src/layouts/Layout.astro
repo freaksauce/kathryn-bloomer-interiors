@@ -1,12 +1,15 @@
 ---
 export interface Props {
 	title: string;
+	description: string;
 }
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import MainNav from '../components/MainNav.astro';
 import '../css/main.css'
 
 const { title } = Astro.props as Props;
+const { description } = Astro.props as Props;
 ---
 
 <!DOCTYPE html>
@@ -15,14 +18,31 @@ const { title } = Astro.props as Props;
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180"
+    href="/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon_io/site.webmanifest" />
 	<meta name="generator" content={Astro.generator} />
+	<meta
+		property="og:title"
+		content={title}
+	/>
+	<meta
+		name="description"
+		content={description}
+	/>
 	<title>{title}</title>
 </head>
 
 <body class="min-h-screen flex flex-col flex-1 h-full">
 	<Header />
-	<div class="container mx-auto bg-lime-300 flex flex-grow">
+	<div class="container mx-auto">
+		<MainNav />
+	</div>
+	<div class="container mx-auto flex flex-grow">
 		<slot />
 	</div>
 	<Footer />

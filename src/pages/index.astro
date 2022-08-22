@@ -1,13 +1,64 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
 ---
 
-<Layout title="Kathryn Bloomer Interiors">
-	<main>
-		<h1 class="text-4xl">Welcome to <span class="text-lime-400 text-4xl">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
+<Layout
+	title="Kathryn Bloomer Interiors"
+	description="Kathryn Bloomer Interiors - Unique interior decoration service and retail store located in the Sutherland Shire"
+>
+	<main class="w-full pb-14">
+		<h1 class="sr-only">Home</h1>
+		<div class="w-full pb-12 border-b border-stone-500">
+			<Image
+				className="w-full pb-8"
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_555,f_auto,q_auto/v1645002670/KBI/homepage/lzppj2nsiqlxku7xkea6.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_90/v1645002670/KBI/homepage/lzppj2nsiqlxku7xkea6.jpg"
+				alt="Kathryn Bloomer Interiors Store, Sutherland"
+			/>
+			<p
+				class="font-serif text-xl lg:text-3xl text-center px-6 lg:px-20 pb-6 lg:pb-8"
+			>
+				If you are renovating or in need of some decorative advice Kathryn
+				Bloomer Interiors can help you create your dream home
+			</p>
+			<h3 class="font-cursive text-4xl lg:text-6xl text-center">
+				Your home, your haven
+			</h3>
+		</div>
+		<div class="lg:pt-20 lg:grid grid-cols-2 gap-11">
+			<div class="mb-2 lg:mb-0">
+				<Image
+					sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1645003825/KBI/homepage/cmtenbhpgfulcfqxrlxy.jpg"
+					lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1645003825/KBI/homepage/cmtenbhpgfulcfqxrlxy.jpg"
+					alt="cushions"
+				/>
+			</div>
+			<div class="">
+				<Image
+					sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1645003825/KBI/homepage/kkxzk0e8un2zfsargqxq.jpg"
+					lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1645003825/KBI/homepage/kkxzk0e8un2zfsargqxq.jpg"
+					alt="lamp"
+				/>
+			</div>
+			<div class="grid content-center px-6 py-6 lg:py-0">
+				<p
+					class="font-serif text-xl lg:text-3xl text-center lg:leading-10 px-6 pb-3 lg:pb-6"
+				>
+					Kathryn has helped to transform homes in Sydney for the past 10 years
+					using her love for coastal and modern interior design
+				</p>
+				<h3 class="font-cursive text-3xl lg:text-6xl mt-2 text-center">
+					Comfort can be beautiful!
+				</h3>
+			</div>
+			<div class="">
+				<Image
+					sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1645006487/KBI/homepage/oymj17ydgw1kwskjnywb.jpg"
+					lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1645006487/KBI/homepage/oymj17ydgw1kwskjnywb.jpg"
+					alt="lamp 2"
+				/>
+			</div>
+		</div>
 	</main>
 </Layout>

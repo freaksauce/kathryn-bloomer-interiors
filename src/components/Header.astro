@@ -1,24 +1,36 @@
 ---
-import Hamburger from './Hamburger';
-import MobileMenu from './MobileMenu'
-import '../css/hamburger.css'
+import Hamburger from "./Hamburger";
+import MobileMenu from "./MobileMenu";
+import "../css/hamburger.css";
 ---
 
 <header class="bg-beige">
-  <div id="hamburger-container" class="bg-white flex h-14 justify-end lg:hidden">
+  <div
+    id="hamburger-container"
+    class="bg-white flex h-14 justify-end lg:hidden"
+  >
     <Hamburger client:load />
   </div>
   <MobileMenu client:load />
-  <div class="container lg:mx-auto px-3 pt-3 lg:pt-12 pb-3 lg:pb-12">
+  <div
+    class="container md:px-20 lg:px-0 lg:mx-auto px-3 pt-3 lg:pt-12 pb-3 lg:pb-12"
+  >
     <h1 class="sr-only">Kathryn Bloomer Interiors</h1>
     <div class="lg:flex justify-center">
       <a href="/" class="inline-flex">
-        <img class=" lg:w-[700px]" src="https://res.cloudinary.com/dz8oxenib/image/upload/fl_sanitize/v1579842477/KBI/cvjrprhs4vwo8zlhsojb.svg" alt="Kathryn Bloomer Interiors">
+        <img
+          class="lg:w-[700px]"
+          src="https://res.cloudinary.com/dz8oxenib/image/upload/fl_sanitize/v1579842477/KBI/cvjrprhs4vwo8zlhsojb.svg"
+          alt="Kathryn Bloomer Interiors"
+        />
       </a>
     </div>
     <div class="lg:flex lg:justify-center">
-      <p class="lg:text-xl lg:w-3/5 text-center font-serif">Unique interior decoration service & retail store located in the Sutherland Shire<br />
-        Creating beautiful homes for you and your family</p>
+      <p class="lg:text-xl lg:w-4/5 text-center font-serif">
+        Unique interior decoration service & retail store located in the
+        Sutherland Shire<br />
+        Creating beautiful homes for you and your family
+      </p>
     </div>
   </div>
 </header>

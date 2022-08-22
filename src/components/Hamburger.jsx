@@ -1,5 +1,4 @@
 import React from "react"
-import 'astro/jsx-runtime'
 import { useStore } from '@nanostores/react';
 import { isMenuOpen } from '../store/hamburger'
 
