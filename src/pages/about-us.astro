@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
 ---
 
 <Layout
@@ -8,6 +9,121 @@ import Layout from "../layouts/Layout.astro";
 >
 	<main class="w-full pb-14">
 		<h1 class="sr-only">About us</h1>
-		<p>About us info</p>
+		<div class="flex justify-center">
+			<Image
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590493778/KBI/trhsvbsdnktbfxb7bfkp.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590493778/KBI/trhsvbsdnktbfxb7bfkp.jpg"
+				alt="Kathryn Bloomer"
+			/>
+		</div>
+		<h1
+			class="page-heading flex justify-center mb-8 relative mt-12 font-cursive z-0"
+		>
+			<span
+				class="bg-white inline-block border-l border-r border-stone-500 text-5xl px-8 z-10"
+				>About us
+			</span>
+		</h1>
+		<p class="font-serif text-center text-3xl px-32 leading-[3rem] mb-12">
+			Kathryn Bloomer Interiors is the culmination of many years of design,
+			creativity and endless amounts of enthusiasm. Starting small and dreaming
+			big!
+		</p>
+		<div class="grid grid-cols-2 gap-4">
+			<div>
+				<p class="mb-4">
+					Kathryn Bloomer Interiors is the culmination of years of Kathryn
+					working as a designer and an insatiable appetite for beautiful things
+					and all things interiors. After graduating from university and
+					finishing her BA in Design Kathryn spent years travelling and
+					absorbing other cultures and experiencing first hand how others live
+					and their surroundings. “Being creative is about absorbing everything
+					around you and interpreting those experiences into ideas and visual
+					content.”
+				</p>
+				<blockquote
+					class="relative py-6 pr-20 pl-16 font-serif text-2xl max-w-md text-center"
+				>
+					Being creative is about absorbing everything around you and
+					interpreting those experiences into ideas and visual content
+				</blockquote>
+				<p class="mb-4">
+					Kathryn has always been involved in a creative role one way or
+					another. Her early beginnings started as a Sydney Portrait
+					Photographer followed by a successful career as an Art Director in
+					magazines. Working on titles such as Home Beautiful and Australian
+					House and Garden combined with a never ending desire to be challenged
+					both creatively and professionally led to her debut into the interior
+					design world and her first business Yellow House Interiors was
+					created.
+				</p>
+				<p>
+					Having run a successful decoration and design business Kathryn’s work
+					has evolved and matured and out of this foundation
+					www.kathrynbloomerinteriors.com.au was launched. Kathryn has grown
+					Kathryn Bloomer Interiors into a very successful interior decoration
+					business with many clients across Sydney.
+				</p>
+			</div>
+			<div>
+				<h4 class="font-bold uppercase mb-2">
+					A Love for Textiles, Pattern and Design
+				</h4>
+				<p class="mb-4">
+					From Kathryn’s 10 years as a print designer in magazines her love for
+					patterns and graphic prints grew. With a strong and dynamic design
+					background Kathryn chooses fabrics that both complement particular
+					pieces of furniture or add another layer to the overall scheme of the
+					room. Every fabric chosen plays an important role in the look and feel
+					of the room and with lots of hands on experience Kathryn creates
+					unique pieces that stand the test of time.<br />
+					“I think my love for fabrics started at a young age from watching my Grandmother
+					who was a seamstress sew all of our clothes growing up. We were able to
+					choose a pattern and fabric and my Grandmother would spend hours at her
+					machine making beautiful clothes for us to wear. I was forever dreaming
+					of what she could create for me next.“
+				</p>
+
+				<h4 class="font-bold uppercase mb-2">
+					Creating that Picture Perfect Residence
+				</h4>
+				<p class="mb-4">
+					With a background working as an Art Director on some of Australia’s
+					leading publications Kathryn has always been surrounded by Stylists
+					and Photographers who worked as a team to create visually stunning
+					images. Over the years her ability to bring a “look” or style together
+					has produced not only beautiful images but now gorgeous living spaces
+					for people to enjoy.
+				</p>
+				<p class="mb-4">
+					“Styling a home is paramount in finishing a renovation or new build.
+					People underestimate how much impact and emotion styling can actually
+					create in a home. Styling a home is absolutely the fun part of what I
+					do. I am constantly on the lookout for that special and unique piece
+					to complement the furniture I have created.” Kathryn Bloomer
+				</p>
+				<h4 class="font-bold uppercase mb-2">Qualifications</h4>
+				<p>
+					BA Design, Coco Republic Certificate Interior Decoration, Certificate
+					Fine Art
+				</p>
+			</div>
+		</div>
 	</main>
 </Layout>
+<style>
+	.page-heading:after {
+		@apply absolute border-t border-stone-500 w-full;
+		content: "";
+		margin-top: -1px;
+		top: 50%;
+	}
+	blockquote:before {
+		@apply absolute text-stone-500 font-bold;
+		content: "“";
+		font-family: "Times New Roman", Times, serif;
+		font-size: 9rem;
+		left: 0;
+		top: 35px;
+	}
+</style>
