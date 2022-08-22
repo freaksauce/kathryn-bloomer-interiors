@@ -1,5 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
+import allProjectsData from "../data/allProjectsData";
+import ProjectCard from "../components/ProjectCard.jsx";
+// window.gtag('config', 'UA-97631050-1', { page_title: 'Projects', page_path: '/projects' })
 ---
 
 <Layout
@@ -7,7 +11,30 @@ import Layout from "../layouts/Layout.astro";
 	description="A small collection of Interior design and decoration jobs that we have completed"
 >
 	<main class="w-full pb-14">
-		<h1 class="sr-only">Testimonials</h1>
-		<p>Testimonials content</p>
+		<h1 class="sr-only">Projects</h1>
+		<div class="flex items-center justify-center my-8">
+			<Image
+				alt="Projects page hero"
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_510,f_auto,q_auto/v1569146405/KBI/vtyr6qbvkdkk9l9hzaq2.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_600,f_auto,q_auto/v1569146405/KBI/vtyr6qbvkdkk9l9hzaq2.jpg"
+			/>
+		</div>
+		<h1
+			class="page-heading flex justify-center mb-8 relative mt-12 font-cursive z-0"
+		>
+			<span
+				class="bg-white inline-block border-l border-r border-stone-500 text-3xl lg:text-5xl px-8 z-10"
+				>Projects
+			</span>
+		</h1>
+		<p
+			class="font-serif text-center text-xl lg:text-3xl lg:px-32 lg:leading-[3rem] mb-12 mx-6 lg:mx-0"
+		>
+			Having completed many projects across Sydney ranging from designing
+			bedrooms to styling outdoor areas, our experience is diverse.
+		</p>
+		<div class="grid grid-cols-2 gap-10">
+			{allProjectsData.map((item) => <ProjectCard item={item} />)}
+		</div>
 	</main>
 </Layout>

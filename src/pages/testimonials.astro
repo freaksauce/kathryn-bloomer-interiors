@@ -1,13 +1,44 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
+import testimonialsData from "../data/testimonialsData";
+import TestimonialCard from "../components/TestimonialCard.astro";
+// window.gtag('config', 'UA-97631050-1', { page_title: 'Testimonials', page_path: '/testimonials' })
 ---
 
 <Layout
 	title="Testimonials: Kathryn Bloomer Interiors"
 	description="Read testimonials from some of the clients that we have worked with over the years"
 >
-	<main class="w-full pb-14">
+	<main class="w-full pb-14 px-6 lg:px-0">
 		<h1 class="sr-only">Testimonials</h1>
-		<p>Testimonials content</p>
+		<div class="flex items-center justify-center my-8">
+			<Image
+				alt="Testimonials page hero"
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_510,f_auto,q_auto/v1568529940/KBI/hero_images/IMG_5251_lykukj.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_600,f_auto,q_auto/v1568529940/KBI/hero_images/IMG_5251_lykukj.jpg"
+			/>
+		</div>
+		<h1
+			class="page-heading flex justify-center mb-8 relative mt-12 font-cursive z-0"
+		>
+			<span
+				class="bg-white inline-block border-l border-r border-stone-500 text-3xl lg:text-5xl px-8 z-10"
+				>Testimonials
+			</span>
+		</h1>
+		<p
+			class="font-serif text-center text-xl lg:text-3xl lg:px-32 lg:leading-[3rem] mb-12 mx-6 lg:mx-0"
+		>
+			We love to keep our clients happy. Read what our clients have to say about
+			their experience with Kathryn Bloomer Interiors
+		</p>
+		<div class="lg:grid grid-cols-3 gap-10 mt-7 mb-4 space-y-12 lg:space-y-0">
+			{
+				testimonialsData.map((item) => (
+					<TestimonialCard key={item.title} item={item} />
+				))
+			}
+		</div>
 	</main>
 </Layout>

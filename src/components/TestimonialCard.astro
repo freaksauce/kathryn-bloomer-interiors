@@ -1,0 +1,23 @@
+---
+const { item } = Astro.props;
+---
+
+<div class="testimonial bg-stone-200 p-8 relative text-center">
+  <h3 class="mt-4 mb-2 text-stone-500 text-2xl">{item.title}</h3>
+  <p class="text-sm mb-4">{item.comment}</p>
+  <p class="text-stone-500 text-2xl">{item.author}</p>
+</div>
+<style>
+  .testimonial:before {
+    @apply bg-stone-500 text-white absolute text-center rounded-full;
+    content: "\201C";
+    font-family: serif;
+    font-size: 5.5rem;
+    height: 60px;
+    width: 60px;
+    left: 50%;
+    line-height: 1.1;
+    margin-left: -30px;
+    top: -30px;
+  }
+</style>

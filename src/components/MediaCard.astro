@@ -1,0 +1,19 @@
+---
+const { item } = Astro.props;
+---
+
+<div class="border border-stone-500 py-6 px-8 mb-6 lg:mb-0">
+  <div>
+    {
+      item.link ? (
+        <a href={item.link} target="_blank" rel="noopener noreferrer">
+          <img class="mb-8" src={item.image} alt={item.title} />
+        </a>
+      ) : (
+        <img class="mb-8" src={item.image} alt={item.title} />
+      )
+    }
+  </div>
+  <h3 class="uppercase font-bold text-lg mb-3">{item.title}</h3>
+  <p class="pb-4"></p><div set:html={item.description}></div>
+</div>

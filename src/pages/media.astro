@@ -1,13 +1,41 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
+import mediaData from "../data/mediaData";
+import MediaCard from "../components/MediaCard.astro";
+// window.gtag('config', 'UA-97631050-1', { page_title: 'Media', page_path: '/media' })
 ---
 
 <Layout
 	title="Media: Kathryn Bloomer Interiors"
 	description="Kathryn Bloomer Interiors has featured in magazines, websites and blogs. We are both thankful and proud to see our work out there for the world to see"
 >
-	<main class="w-full pb-14">
+	<main class="w-full pb-14 px-6 lg:px-0">
 		<h1 class="sr-only">Media</h1>
-		<p>Media content</p>
+		<div class="flex items-center justify-center my-8">
+			<Image
+				alt="Media page hero"
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_510,f_auto,q_auto/v1568529937/KBI/hero_images/IMG_5236_nsbqxj.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_600,f_auto,q_auto/v1568529937/KBI/hero_images/IMG_5236_nsbqxj.jpg"
+			/>
+		</div>
+		<h1
+			class="page-heading flex justify-center mb-8 relative mt-12 font-cursive z-0"
+		>
+			<span
+				class="bg-white inline-block border-l border-r border-stone-500 text-3xl lg:text-5xl px-8 z-10"
+				>Media
+			</span>
+		</h1>
+		<p
+			class="font-serif text-center text-xl lg:text-3xl lg:px-32 lg:leading-[3rem] mb-12 mx-6 lg:mx-0"
+		>
+			Kathryn Bloomer Interiors has featured in magazines, websites and blogs.
+			We are both thankful and proud to see our work out there for the world to
+			see!
+		</p>
+		<div class="lg:grid grid-cols-3 gap-10">
+			{mediaData.map((item) => <MediaCard item={item} />)}
+		</div>
 	</main>
 </Layout>

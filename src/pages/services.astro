@@ -1,13 +1,203 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Image from "../components/Image.astro";
+// window.gtag('config', 'UA-97631050-1', { page_title: 'Services', page_path: '/services' })
 ---
 
 <Layout
 	title="Services: Kathryn Bloomer Interiors"
 	description="All projects big and small are given the highest amount of attention and detail. From decorating a single room to furnishing an entire home, we have it covered"
 >
-	<main class="w-full pb-14">
+	<main class="w-full pb-14 px-6 lg:px-0">
 		<h1 class="sr-only">Services</h1>
-		<p>Services content</p>
+		<div class="flex items-center justify-center my-8">
+			<Image
+				alt="Services page hero"
+				sm="https://res.cloudinary.com/dz8oxenib/image/upload/w_510,f_auto,q_auto/v1568529940/KBI/hero_images/IMG_5232_y7pvfb.jpg"
+				lg="https://res.cloudinary.com/dz8oxenib/image/upload/w_600,f_auto,q_auto/v1568529940/KBI/hero_images/IMG_5232_y7pvfb.jpg"
+			/>
+		</div>
+		<h1
+			class="page-heading flex justify-center mb-8 relative mt-12 font-cursive z-0"
+		>
+			<span
+				class="bg-white inline-block border-l border-r border-stone-500 text-3xl lg:text-5xl px-8 z-10"
+				>Services
+			</span>
+		</h1>
+		<p
+			class="font-serif text-center text-xl lg:text-3xl lg:px-32 lg:leading-[3rem] mb-12 mx-6 lg:mx-0"
+		>
+			All projects big and small are given the highest amount of attention and
+			detail. From decorating a single room to furnishing an entire home, we
+			have it covered!
+		</p>
+
+		<h3 class="font-cursive text-4xl border-b border-stone-500 mb-8 pb-4">
+			What we do
+		</h3>
+		<div class="lg:grid grid-cols-2 gap-10 mb-20">
+			<div class="">
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Custom Furniture and Upholstery
+				</h4>
+				<p>
+					We can create a perfect piece of furniture designed to suit a specific
+					space or shape. Our upholsterer/furniture maker is one of the most
+					skilled makers in Sydney and produces pieces that are second to none
+					in quality and workmanship. All of our custom upholstered pieces are
+					created and made here in Sydney.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Custom Designed Cushions
+				</h4>
+				<p>
+					We can create and design beautiful cushions to suit your bespoke
+					interior. Whether it is a single cushion or numerous cushions for an
+					entire home, our cushions are hand made here in Sydney and can be made
+					in any fabric with quality feather inserts.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Art and accessories selection
+				</h4>
+				<p>
+					With many contacts in the art and accessories industries we can find
+					pieces to suit your budget and style. Art and accessories can pull the
+					entire project together so are chosen with every detail in mind.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Flooring Selection
+				</h4>
+				<p>
+					Flooring is one of the most important elements in a room. It is the
+					basis for both the visual style of the interior and also needs to be
+					one of the most functional and durable elements in the design.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Soft Furnishings and Window Treatments
+				</h4>
+				<p>
+					We can custom design your curtains, blinds, rugs and more. Many
+					factors are considered in the selection process and our knowledge and
+					passion for beautiful fabrics helps us create window dressings that
+					are visually stunning and durable.
+				</p>
+			</div>
+			<div class="">
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Kitchen and bathroom selections
+				</h4>
+				<p>
+					Our attention to detail is paramount when selecting hard finishes,
+					tiles, tapware, benchtops, lighting, door hardware, and bathroom and
+					kitchen products. Whilst keeping current trends in mind we are mindful
+					that kitchen and bathrooms add value to a property and aesthetic
+					longevity is important.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Lighting selection
+				</h4>
+				<p>
+					From pendants to table lamps we can create a lighting design for you.
+					We can custom make shades and have suppliers that are not readily
+					available to the general public.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Colour Consultancy
+				</h4>
+				<p>
+					With a strong background in colour and design our ability to create
+					beautiful colour palettes and advise on paint choices will result in a
+					fresh and contemporary home or commercial space. With experience
+					consulting on both interior and exterior projects our use of colour is
+					both unique and surprising. We have a flexible attitude towards colour
+					and love both neutral colour schemes or bold saturated colour when
+					desired.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Tradespeople and Suppliers
+				</h4>
+				<p>
+					Our business couldn’t function without the many highly skilled
+					tradespeople that contribute to our work. From wallpaper hanging to
+					installing curtains and blinds, we have a wide range of suppliers and
+					people to call on.
+				</p>
+				<h4 class="font-bold uppercase mb-2 mt-6 lg:mt-0">
+					Project Management
+				</h4>
+				<p>
+					We can be as involved as little or as much as you like. We an design,
+					order and install all selected items for your home. From the initial
+					decoartion scheme to the furnished room or house, we can manage the
+					entireprocess.
+				</p>
+			</div>
+		</div>
+		<h3 class="font-cursive text-4xl border-b border-stone-500 mb-8 pb-4">
+			The process
+		</h3>
+		<div class="mb-20">
+			<ul class="lg:grid grid-cols-3 gap-4">
+				<li class="grid justify-items-center">
+					<div class="circle">
+						<h3 class="text-2xl mb-3">1ST CONSULATION</h3>
+						<p class="px-14">
+							At the first meeting at your home Kathryn will discuss your
+							expectations and budget for your home or room makeover. She will
+							look at your porperty and go through style suggestions and take
+							measurements and discuss general ideas.
+						</p>
+					</div>
+					<p class="step">Step 1</p>
+				</li>
+				<li class="grid justify-items-center">
+					<div class="circle">
+						<h3 class="text-2xl mb-3">DESIGN PHASE</h3>
+						<p class="px-14">
+							The decorative scheme wheels are set in motion. The decoration
+							scheme is carefully curated by Kathryn and designed as a PDF
+							bursting with product images and information for your home.
+							Samples and fabric cuttings are gathered.
+						</p>
+					</div>
+					<p class="step">Step 2</p>
+				</li>
+				<li class="grid justify-items-center">
+					<div class="circle">
+						<h3 class="text-2xl mb-3">PRESENTATION</h3>
+						<p class="px-14">
+							Kathryn persents her ideas to you. Showing you samples, fabrics
+							and a hard copy of the PDF decoration scheme. During this meeting
+							product lead times, the ordering process, and how best to
+							implement the decorative scheme will be decided upon.
+						</p>
+					</div>
+					<p class="step">Step 3</p>
+				</li>
+			</ul>
+		</div>
 	</main>
 </Layout>
+<style>
+	.page-heading:after {
+		@apply absolute border-t border-stone-500 w-full;
+		content: "";
+		margin-top: -1px;
+		top: 50%;
+	}
+	p {
+		@apply mb-3;
+	}
+	.circle {
+		@apply w-full md:w-[360px] h-[360px];
+		align-self: center;
+		background-color: #e2dfdb;
+		border-radius: 50%;
+		padding: 60px 0 0;
+		text-align: center;
+	}
+	.step {
+		@apply inline-block border-b border-stone-500 text-stone-500 font-serif text-4xl my-4 uppercase;
+	}
+</style>

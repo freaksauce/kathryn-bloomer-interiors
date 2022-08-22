@@ -1,13 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Image from "../components/Image.astro";
+// window.gtag('config', 'UA-97631050-1', { page_title: 'About us', page_path: '/about-us' })
 ---
 
 <Layout
 	title="About us: Kathryn Bloomer Interiors"
 	description="Kathryn Bloomer Interiors is a unique interior decoration service and retail store located in the Sutherland Shire"
 >
-	<main class="w-full pb-14">
+	<main class="w-full pb-14 px-6 lg:px-0">
 		<h1 class="sr-only">About us</h1>
 		<div class="flex justify-center">
 			<Image
@@ -31,7 +32,7 @@ import Image from "../components/Image.astro";
 			creativity and endless amounts of enthusiasm. Starting small and dreaming
 			big!
 		</p>
-		<div class="lg:grid grid-cols-2 gap-4 px-6">
+		<div class="lg:grid grid-cols-2 gap-10">
 			<div>
 				<p class="mb-4">
 					Kathryn Bloomer Interiors is the culmination of years of Kathryn
@@ -44,7 +45,7 @@ import Image from "../components/Image.astro";
 					content.”
 				</p>
 				<blockquote
-					class="relative py-6 pr-20 pl-16 font-serif text-2xl max-w-md text-center"
+					class="relative py-6 lg:pr-20 lg:pl-16 font-serif lg:text-2xl max-w-md text-center"
 				>
 					Being creative is about absorbing everything around you and
 					interpreting those experiences into ideas and visual content
@@ -121,7 +122,7 @@ import Image from "../components/Image.astro";
 		top: 50%;
 	}
 	blockquote:before {
-		@apply absolute text-stone-500 font-bold;
+		@apply hidden lg:block absolute text-stone-500 font-bold;
 		content: "“";
 		font-family: "Times New Roman", Times, serif;
 		font-size: 9rem;
