@@ -12,8 +12,13 @@ export async function getStaticPaths() {
   });
 }
 const { id } = Astro.params;
+let urlPath = "../../../public/";
+if (import.meta.env.NODE_ENV === "production") {
+  urlPath = "./";
+}
+
 const url = new URL(
-  `./projects/${convertStrToCamelcase(id)}.json`,
+  `${urlPath}projects/${convertStrToCamelcase(id)}.json`,
   import.meta.url
 );
 const json = await fs.readFile(url, "utf-8");
