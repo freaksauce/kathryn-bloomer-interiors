@@ -3,7 +3,6 @@ import './projectCard.css'
 
 const ProjectCard = ({ item }) => {
   const [isHovered, setIsHovered] = useState(false)
-  let toggle = false;
   const toggleHoverClass = (bool) => {
     setIsHovered(bool)
   };
