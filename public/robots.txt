@@ -1,0 +1,3 @@
+Sitemap: https://kathrynbloomerinteriors.com.au/sitemap.xml
+User-agent: *
+Disallow:
