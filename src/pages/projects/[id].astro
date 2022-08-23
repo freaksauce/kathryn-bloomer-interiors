@@ -1,0 +1,39 @@
+---
+import fs from "node:fs/promises";
+import Layout from "../../layouts/Layout.astro";
+import ProjectImages from "../../components/ProjectImages.astro";
+import { convertStrToCamelcase } from "../../utils/string";
+import allProjectsData from "../../data/allProjectsData";
+export async function getStaticPaths() {
+  return allProjectsData.map((page) => {
+    return {
+      params: { id: page.link.replace("/projects/", "") },
+    };
+  });
+}
+const { id } = Astro.params;
+const url = new URL(
+  `../../data/projects/${convertStrToCamelcase(id)}.json`,
+  import.meta.url
+);
+const json = await fs.readFile(url, "utf-8");
+const data = JSON.parse(json);
+---
+
+<Layout
+  title={`${data.title} : Kathryn Bloomer Interiors`}
+  description={data.description}
+  url={`projects/${id}`}
+>
+  <main class="w-full pb-14 px-6 lg:px-0">
+    <div class="project">
+      <ProjectImages images={data.images} />
+      <div class="mb-12 mt-12 py-4">
+        <h1 class="font-cursive text-4xl border-b border-stone-500 mb-8 pb-4">
+          {data.title}
+        </h1>
+        <p class="lg:max-w-[50%]">{data.description}</p>
+      </div>
+    </div>
+  </main>
+</Layout>

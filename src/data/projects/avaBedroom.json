@@ -1,0 +1,36 @@
+{
+  "title": "Ava's Bedroom",
+  "description": "Designing a 10 year old’s bedroom was such a fun project for Kathryn. Her client’s brief was to create a beautiful bedroom that was full of colour and imagination with furnishings that could see her daughter Ava into her teenage years. With a soft gelato colour palette and a mix of patterns in soft coloured fabrics Kathryn created a bedroom that is bright and beautifully styled, just perfect for Ava to enjoy for many years to come.",
+  "images": [
+    {
+      "orientation": "portrait",
+      "alt": "Ava's Bedroom 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819124/KBI/projects/ava/qfh2jg0qhzbqlqykbs6k.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819124/KBI/projects/ava/qfh2jg0qhzbqlqykbs6k.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Ava's Bedroom 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569494539/KBI/projects/ava/hckhs5mxdynwhlw2uq3p.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569494539/KBI/projects/ava/hckhs5mxdynwhlw2uq3p.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Ava's Bedroom 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1569494552/KBI/projects/ava/cwfnbfmrpo9vrjgbovcp.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1569494552/KBI/projects/ava/cwfnbfmrpo9vrjgbovcp.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Ava's Bedroom 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569494550/KBI/projects/ava/h4ovh3jekrumd8sojybp.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569494550/KBI/projects/ava/h4ovh3jekrumd8sojybp.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Ava's Bedroom 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819123/KBI/projects/ava/t4ivylk6gi1grgwo0rm1.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819123/KBI/projects/ava/t4ivylk6gi1grgwo0rm1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Black & White Bathroom",
+  "description": "",
+  "images": [
+    {
+      "orientation": "portrait",
+      "alt": "Black & White Bathroom 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590024634/KBI/projects/como_bathroom_2/uowgsorujblcjbpqofnx.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590024634/KBI/projects/como_bathroom_2/uowgsorujblcjbpqofnx.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Black & White Bathroom 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/como_bathroom_2/h63dfdvdjrd9nkew4zq4.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/como_bathroom_2/h63dfdvdjrd9nkew4zq4.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Black & White Bathroom 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/como_bathroom_2/uez7novh2mukzk0ognkz.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/como_bathroom_2/uez7novh2mukzk0ognkz.jpg"
+    }
+  ]
+}

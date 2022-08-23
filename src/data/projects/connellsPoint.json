@@ -1,0 +1,42 @@
+{
+  "title": "Connells Point House",
+  "description": "Our clients for this project came to Kathryn Bloomer Interiors with the desire to transform their interiors into a standard that matched the beautiful renovation of their home. Having recently finished renovating they then wanted to to make not only their home look amazing but to also accomodate the needs of their growing children. From the initial consultation to completing the project we designed, manufactured and delivered all aspects of the interior decoration. Included in the design of each room was custom designed furniture, restoration of existing furniture and custom designed floor rugs. Accessories, lighting and soft furnishings were all chosen with helpful input and collaboration with our client. Every room within the home had it’s on design brief and throughout the design process it was important to maintain a visual flow throughout the home.",
+  "images": [
+    {
+      "orientation": "landscape",
+      "alt": "Connells Point House 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1569149185/KBI/projects/connells_point/a79qd6xtucon9xdlkf78.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1569149185/KBI/projects/connells_point/a79qd6xtucon9xdlkf78.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Connells Point House 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1569149192/KBI/projects/connells_point/hycpmvg3koezhl5fuaja.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1569149192/KBI/projects/connells_point/hycpmvg3koezhl5fuaja.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Connells Point House 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1569149197/KBI/projects/connells_point/iyqdedpbiioa3txfxzex.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1569149197/KBI/projects/connells_point/iyqdedpbiioa3txfxzex.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Connells Point House 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1569149181/KBI/projects/connells_point/z6asd6vfh8wtsbjw31as.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1569149181/KBI/projects/connells_point/z6asd6vfh8wtsbjw31as.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Connells Point House 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569149216/KBI/projects/connells_point/trs77kwnacldnytodzby.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569149216/KBI/projects/connells_point/trs77kwnacldnytodzby.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Connells Point House 6",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569149172/KBI/projects/connells_point/nvec9vpmzunqeqqpc4ob.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569149172/KBI/projects/connells_point/nvec9vpmzunqeqqpc4ob.jpg"
+    }
+  ]
+}

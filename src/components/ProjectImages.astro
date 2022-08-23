@@ -1,0 +1,25 @@
+---
+const { images } = Astro.props;
+import Image from "../components/Image.astro";
+---
+
+<div class="lg:grid grid-cols-2 gap-10">
+  {
+    images.map((image) => {
+      return (
+        <div
+          class={`mb-9 lg:mb-0 ${
+            image.orientation === "portrait" ? "" : "col-span-2"
+          }`}
+        >
+          <Image
+            className="w-full"
+            sm={image.md}
+            lg={image.lg}
+            alt={image.alt}
+          />
+        </div>
+      );
+    })
+  }
+</div>

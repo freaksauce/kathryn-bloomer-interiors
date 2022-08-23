@@ -1,0 +1,36 @@
+{
+  "title": "Sylvania House",
+  "description": "Natural timbers, eco and animal friendly materials, and a "Byron Bay" aesthetic was the brief for this project. Growing up in Sydney and spending many days surfing in her younger years, Kathryn found this project a joy to work on. Working with a beautiful client in Sylvania Kathryn was hired to create a zen like haven for her client, her family and pets to enjoy. Lot's of natural fabrics and materials were sourced to create relaxed and fresh interiors. Keeping in mind that the client requested no animal products to be used, Kathryn sourced soft furnishings that were animal friendly and had a lovely soft textural feel to them.",
+  "images": [
+    {
+      "orientation": "portrait",
+      "alt": "Sylvania House 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jnnzrhneod1vksw13pxk.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jnnzrhneod1vksw13pxk.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Sylvania House 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jy60j8izufb9nntponab.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jy60j8izufb9nntponab.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Sylvania House 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1100,f_auto,q_auto/v1569819124/KBI/projects/sylvania/l7rzkyclb781zc5ealwt.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2200,f_auto,q_auto/v1569819124/KBI/projects/sylvania/l7rzkyclb781zc5ealwt.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Sylvania House 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1100,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jmgm2mvcvsrtevglpofg.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2200,f_auto,q_auto/v1569819124/KBI/projects/sylvania/jmgm2mvcvsrtevglpofg.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Sylvania House 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1100,f_auto,q_auto/v1569819124/KBI/projects/sylvania/iyaovctzq66msm3zmvct.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2200,f_auto,q_auto/v1569819124/KBI/projects/sylvania/iyaovctzq66msm3zmvct.jpg"
+    }
+  ]
+}

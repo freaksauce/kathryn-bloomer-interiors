@@ -1,0 +1,30 @@
+{
+  "title": "Girl's Bedroom",
+  "description": "",
+  "images": [
+    {
+      "orientation": "landscape",
+      "alt": "Girl's Bedroom 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1590019582/KBI/projects/girls_bedroom/vfundhdvpx0feipyksvo.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1590019582/KBI/projects/girls_bedroom/vfundhdvpx0feipyksvo.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Girl's Bedroom 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590024634/KBI/projects/girls_bedroom/lx6rrodvdvnmoekopggo.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590024634/KBI/projects/girls_bedroom/lx6rrodvdvnmoekopggo.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Girl's Bedroom 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/girls_bedroom/zhrwhwjacry33kwvvncs.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/girls_bedroom/zhrwhwjacry33kwvvncs.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "Girl's Bedroom 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1590019581/KBI/projects/girls_bedroom/abgkkclu9esa27ae6mrp.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1590019581/KBI/projects/girls_bedroom/abgkkclu9esa27ae6mrp.jpg"
+    }
+  ]
+}

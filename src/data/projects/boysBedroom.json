@@ -1,0 +1,24 @@
+{
+  "title": "Boys Bedroom",
+  "description": "",
+  "images": [
+    {
+      "orientation": "landscape",
+      "alt": "Boys Bedroom 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1590388265/KBI/projects/boys_bedroom/m3sddoql6uyk7uchtckq.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1590019582/KBI/projects/boys_bedroom/m3sddoql6uyk7uchtckq.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Boys Bedroom 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590388264/KBI/projects/boys_bedroom/sxlsqswx9wpbbroisofj.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590024634/KBI/projects/boys_bedroom/sxlsqswx9wpbbroisofj.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Boys Bedroom 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590388264/KBI/projects/boys_bedroom/gz7a27t6qltpjcibhljk.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/boys_bedroom/gz7a27t6qltpjcibhljk.jpg"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Upholstery",
+  "description": "",
+  "images": [
+    {
+      "orientation": "landscape",
+      "alt": "Upholstery 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1110,f_auto,q_auto/v1590019582/KBI/projects/upholstery/n39llb7t7ja0zl8qmkde.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2220,f_auto,q_auto/v1590019582/KBI/projects/upholstery/n39llb7t7ja0zl8qmkde.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590024634/KBI/projects/upholstery/rasnnrb8useasr1ktv6h.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590024634/KBI/projects/upholstery/rasnnrb8useasr1ktv6h.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/upholstery/ear36kp3yqjsaujh6pji.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/upholstery/ear36kp3yqjsaujh6pji.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/upholstery/kipzntzjv4r1rcdqrqyc.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/upholstery/kipzntzjv4r1rcdqrqyc.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/upholstery/jzvm7bn1d2j83d3x3voc.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/upholstery/jzvm7bn1d2j83d3x3voc.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/upholstery/lxujxfqucvdxrt4nvz5i.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/upholstery/lxujxfqucvdxrt4nvz5i.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "Upholstery 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1590019582/KBI/projects/upholstery/tartmh5ei4ooa99qaheq.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1590019582/KBI/projects/upholstery/tartmh5ei4ooa99qaheq.jpg"
+    }
+  ]
+}

@@ -9,8 +9,9 @@ import ProjectCard from "../components/ProjectCard.jsx";
 <Layout
 	title="Projects: Kathryn Bloomer Interiors"
 	description="A small collection of Interior design and decoration jobs that we have completed"
+	url="projects"
 >
-	<main class="w-full pb-14">
+	<main class="w-full pb-14 px-6 lg:px-0">
 		<h1 class="sr-only">Projects</h1>
 		<div class="flex items-center justify-center my-8">
 			<Image
@@ -33,8 +34,8 @@ import ProjectCard from "../components/ProjectCard.jsx";
 			Having completed many projects across Sydney ranging from designing
 			bedrooms to styling outdoor areas, our experience is diverse.
 		</p>
-		<div class="grid grid-cols-2 gap-10">
-			{allProjectsData.map((item) => <ProjectCard item={item} />)}
+		<div class="lg:grid grid-cols-2 gap-10">
+			{allProjectsData.map((item) => <ProjectCard item={item} client:load />)}
 		</div>
 	</main>
 </Layout>
