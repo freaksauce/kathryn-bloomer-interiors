@@ -1,7 +1,11 @@
 ---
+export interface props {
+  title: string;
+}
 import Hamburger from "./Hamburger";
 import MobileMenu from "./MobileMenu";
 import "../css/hamburger.css";
+const { title } = Astro.props;
 ---
 
 <header class="bg-beige">
@@ -15,7 +19,7 @@ import "../css/hamburger.css";
   <div
     class="container md:px-20 lg:px-0 lg:mx-auto px-3 pt-3 lg:pt-12 pb-3 lg:pb-12"
   >
-    <h1 class="sr-only">Kathryn Bloomer Interiors</h1>
+    <h1 class="sr-only">{title}</h1>
     <div class="lg:flex justify-center">
       <a href="/" class="inline-flex">
         <img
