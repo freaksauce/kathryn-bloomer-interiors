@@ -12,7 +12,9 @@ export default function Hamburger() {
       onClick={() => isMenuOpen.set(!$isMenuOpen)}
     >
       <span className="hamburger-box">
-        <span className="hamburger-inner"></span>
+        <span className="hamburger-inner">
+          <span className="sr-only">menu</span>
+        </span>
       </span>
     </button>
   )
