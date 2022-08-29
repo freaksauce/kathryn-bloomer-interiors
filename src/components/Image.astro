@@ -6,8 +6,9 @@ export interface Props {
   alt: string;
   w?: string;
   h?: string;
+  lazy?: boolean;
 }
-const { alt, className, sm, lg, w, h } = Astro.props as Props;
+const { alt, className, sm, lg, w, h, lazy } = Astro.props as Props;
 ---
 
 <picture>
@@ -18,6 +19,6 @@ const { alt, className, sm, lg, w, h } = Astro.props as Props;
     alt={alt}
     width={`${w}`}
     height={`${h}`}
-    loading="lazy"
+    loading={`${lazy ? "lazy" : "eager"}`}
   />
 </picture>

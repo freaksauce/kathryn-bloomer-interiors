@@ -13,6 +13,7 @@ const { item } = Astro.props;
             alt={item.title}
             height="auto"
             width="287"
+            loading="lazy"
           />
         </a>
       ) : (
@@ -22,6 +23,7 @@ const { item } = Astro.props;
           alt={item.title}
           height="auto"
           width="287"
+          loading="lazy"
         />
       )
     }

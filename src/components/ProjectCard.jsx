@@ -9,7 +9,7 @@ const ProjectCard = ({ item }) => {
 
   return (
     <div className="relative text-center mb-9 lg:mb-0">
-      <img src={item.photo} alt={item.title} width="100%" height="690" />
+      <img src={item.photo} alt={item.title} width="100%" height="690" loading='lazy' />
       <div className="flex justify-center absolute left-0 top-2/4 w-full mt-[-75px]">
         <div className="project-info bg-white p-12 w-[90%]">
           <h2 className={`project-title ${isHovered ? 'hover': ''}`}>
