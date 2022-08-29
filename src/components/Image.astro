@@ -4,11 +4,19 @@ export interface Props {
   sm: string;
   lg: string;
   alt: string;
+  w?: string;
+  h?: string;
 }
-const { alt, className, sm, lg } = Astro.props as Props;
+const { alt, className, sm, lg, w, h } = Astro.props as Props;
 ---
 
 <picture>
   <source media="(min-width: 575px)" srcset={lg} />
-  <img class={className} src={sm} alt={alt} />
+  <img
+    class={className}
+    src={sm}
+    alt={alt}
+    width={`${w}px`}
+    height={`${h}px`}
+  />
 </picture>
