@@ -17,6 +17,8 @@ import Image from "../components/Image.astro";
             sm={image.md}
             lg={image.lg}
             alt={image.alt}
+            w={image.orientation === "portrait" ? "550" : "100%"}
+            h={image.orientation === "portrait" ? "703" : "685"}
           />
         </div>
       );
