@@ -10,7 +10,13 @@ const { item } = Astro.props;
           <img class="mb-8" src={item.image} alt={item.title} />
         </a>
       ) : (
-        <img class="mb-8" src={item.image} alt={item.title} />
+        <img
+          class="mb-8"
+          src={item.image}
+          alt={item.title}
+          height="auto"
+          width="287"
+        />
       )
     }
   </div>
