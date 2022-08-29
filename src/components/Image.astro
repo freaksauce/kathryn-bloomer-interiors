@@ -12,11 +12,5 @@ const { alt, className, sm, lg, w, h } = Astro.props as Props;
 
 <picture>
   <source media="(min-width: 575px)" srcset={lg} />
-  <img
-    class={className}
-    src={sm}
-    alt={alt}
-    width={`${w}px`}
-    height={`${h}px`}
-  />
+  <img class={className} src={sm} alt={alt} width={`${w}`} height={`${h}`} />
 </picture>
