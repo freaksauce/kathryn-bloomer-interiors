@@ -24,7 +24,6 @@ export default function MobileMenu() {
             <li className="py-3 border-b"><a className="text-xl" href="/media">Media</a></li>
             <li className="py-3 border-b"><a className="text-xl" href="/testimonials">Testimonials</a></li>
             <li className="py-3 border-b"><a className="text-xl" href="/contact">Contact</a></li>
-            <li className="py-3 border-b"><a className="text-xl" href="https://store.kathrynbloomerinteriors.com.au/">Online Store</a></li>
           </ul>
         </div>        
       </div>  
