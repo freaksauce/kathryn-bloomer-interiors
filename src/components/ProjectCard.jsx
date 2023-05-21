@@ -8,16 +8,16 @@ const ProjectCard = ({ item }) => {
   };
 
   return (
-    <div className="relative text-center mb-9 lg:mb-0">
-      <img src={item.photo} alt={item.title} width="100%" height="690" loading='lazy' />
-      <div className="flex justify-center absolute left-0 top-2/4 w-full mt-[-75px]">
-        <div className="project-info bg-white p-12 w-[90%]">
+    <div className="relative mb-9 lg:mb-0">
+      <div className="w-full">
+        <div className="project-info bg-white p-3">
           <h2 className={`project-title ${isHovered ? 'hover': ''}`}>
-            <a href={item.link} className="project-link" onMouseEnter={() => toggleHoverClass(true)} onMouseLeave={() => toggleHoverClass(false)}>
-              {item.title}
-            </a>
+            {item.title}
           </h2>
         </div>
+        <a href={item.link}>
+          <img src={item.photo} alt={item.title} width="100%" height="690" loading='lazy' />
+        </a>
       </div>
     </div>
   )
