@@ -1,0 +1,49 @@
+{
+  "id": "the-bay-house",
+  "title": "The Bay House",
+  "description": "",
+  "images": [
+    {
+      "orientation": "landscape",
+      "alt": "The Bay House 1",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1100,f_auto,q_auto/v1684662601/sijlc0xyug4yo6q7ixqp.webp",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2200,f_auto,q_auto/v1684662601/sijlc0xyug4yo6q7ixqp.webp"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 2",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663138/jxxqa39lar0jrvm8ksvm.webp",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663138/jxxqa39lar0jrvm8ksvm.webp"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 5",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 6",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 7",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg"
+    }
+  ]
+}
