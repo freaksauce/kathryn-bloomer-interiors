@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Arial', 'Helvetica', 'sans-serif'],
-      cursive: ['Sacramento', 'cursive'],
+      cursive: ['Allison', 'cursive'],
       serif: ['Bodoni Moda', 'serif'],
     },
     screens: {
