@@ -12,68 +12,93 @@
     {
       "orientation": "portrait",
       "alt": "The Bay House 2",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 3",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 4",
       "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663138/jxxqa39lar0jrvm8ksvm.webp",
       "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663138/jxxqa39lar0jrvm8ksvm.webp"
     },
     {
       "orientation": "portrait",
+      "alt": "The Bay House 3",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883693/rl7mtiszpppbz046frp5.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883693/rl7mtiszpppbz046frp5.jpg"
+    },
+
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 4",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663164/zuklxcda2wmgo5wxsh5v.png"
+    },
+    {
+      "orientation": "portrait",
       "alt": "The Bay House 5",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 6",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 7",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 8",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883199/gzpjpfowmbrur6mxqxzq.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883199/gzpjpfowmbrur6mxqxzq.jpg"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 9",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883199/atdfrcjccptphxirmyxq.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883199/atdfrcjccptphxirmyxq.jpg"
-    },
-    {
-      "orientation": "portrait",
-      "alt": "The Bay House 10",
       "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883198/wyawqltpypssklcvnc4w.jpg",
       "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883198/wyawqltpypssklcvnc4w.jpg"
     },
     {
       "orientation": "portrait",
+      "alt": "The Bay House 6",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684663146/a6tex3saj75dofxlzosd.webp"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 7",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883199/gzpjpfowmbrur6mxqxzq.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883199/gzpjpfowmbrur6mxqxzq.jpg"
+    },
+    {
+      "orientation": "landscape",
+      "alt": "The Bay House 8",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1100,f_auto,q_auto/v1688885090/pj8vbsm6i0znvo6pleaa.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_2200,f_auto,q_auto/v1688885090/pj8vbsm6i0znvo6pleaa.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 9",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688885089/bzr1rogekaoljtm41nnb.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688885089/bzr1rogekaoljtm41nnb.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 10",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688885090/cunbvcxh2zqxrkhpfkvt.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688885090/cunbvcxh2zqxrkhpfkvt.jpg"
+    },
+    {
+      "orientation": "portrait",
       "alt": "The Bay House 11",
-      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883693/rl7mtiszpppbz046frp5.jpg",
-      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883693/rl7mtiszpppbz046frp5.jpg"
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/cgnr6jyqpj8eog7pqgha.jpg"
     },
     {
       "orientation": "portrait",
       "alt": "The Bay House 12",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666119/wlsolcpcb8qqzi4zifbn.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 13",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1684666116/h5tmuk4lzaz2snrst5ks.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 14",
       "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883692/ygo6ntbtjd7yjjakha5l.jpg",
       "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883692/ygo6ntbtjd7yjjakha5l.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 15",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688883199/atdfrcjccptphxirmyxq.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688883199/atdfrcjccptphxirmyxq.jpg"
+    },
+    {
+      "orientation": "portrait",
+      "alt": "The Bay House 16",
+      "md": "https://res.cloudinary.com/dz8oxenib/image/upload/w_540,f_auto,q_auto/v1688885086/bdqcer1nvyghu8jf9f7t.jpg",
+      "lg": "https://res.cloudinary.com/dz8oxenib/image/upload/w_1080,f_auto,q_auto/v1688885086/bdqcer1nvyghu8jf9f7t.jpg"
     }
   ]
 }
