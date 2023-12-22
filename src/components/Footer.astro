@@ -1,12 +1,10 @@
 ---
-const date = new Date();
+const date = new Date()
 ---
 
 <footer class="bg-beige pt-8 lg:pb-20">
   <div class="container mx-auto">
-    <div
-      class="flex flex-col lg:border-b border-gray-600 lg:items-center ml-4 lg:ml-0"
-    >
+    <div class="flex flex-col lg:border-b border-gray-600 lg:items-center ml-4 lg:ml-0">
       <a href="/" class="lg:flex justify-center">
         <img
           class="w-[300px] md:w-[400px]"
@@ -15,18 +13,15 @@ const date = new Date();
           width="400"
           height="36"
         />
+        <span class="sr-only">Home</span>
       </a>
       <nav class="lg:flex pb-12">
         <ul class="lg:border-r border-gray-500 lg:pr-16 mt-3">
           <li class="mb-2">
-            <a class="uppercase text-gray-500 text-sm" href="/terms"
-              >Terms and conditions
-            </a>
+            <a class="uppercase text-gray-500 text-sm" href="/terms">Terms and conditions</a>
           </li>
           <li class="mb-2">
-            <a class="uppercase text-gray-500 text-sm" href="/privacy"
-              >Privacy policy
-            </a>
+            <a class="uppercase text-gray-500 text-sm" href="/privacy">Privacy policy</a>
           </li>
           <li class="uppercase text-sm">
             &copy; {date.getFullYear()} Kathryn Bloomer Interiors
@@ -34,16 +29,10 @@ const date = new Date();
         </ul>
         <ul class="lg:pl-16 mt-3">
           <li class="mb-2">
-            <a class="uppercase text-gray-500 text-sm" href="/contact"
-              >Contact
-            </a>
+            <a class="uppercase text-gray-500 text-sm" href="/contact">Contact</a>
           </li>
           <li class="mb-2">
-            <a
-              class="text-gray-500 text-sm"
-              href="mailto:enquiries@kathrynbloomerinteriors.com.au"
-              >enquiries@kathrynbloomerinteriors.com.au
-            </a>
+            <a class="text-gray-500 text-sm" href="mailto:enquiries@kathrynbloomerinteriors.com.au">enquiries@kathrynbloomerinteriors.com.au</a>
           </li>
           <li class="text-sm">P: <a href="tel:0412579330">0412579330</a></li>
         </ul>
