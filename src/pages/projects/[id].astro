@@ -25,10 +25,10 @@ const data = projects.find(project => project.id === id)
     <div class="project">
       <ProjectImages images={data.images} />
       <div class="mb-12 mt-12 py-4">
-        <h1 class="font-cursive text-4xl border-b border-stone-500 mb-8 pb-4">
+        <h1 class="font-cursive text-3xl border-b border-stone-500 mb-8 pb-4">
           {data.title}
         </h1>
-        <p class="lg:max-w-[50%]">{data.description}</p>
+        <p class="lg:max-w-[50%] font-light">{data.description}</p>
       </div>
     </div>
   </main>

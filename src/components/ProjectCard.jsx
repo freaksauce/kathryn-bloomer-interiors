@@ -1,17 +1,11 @@
-import React, { useState } from 'react'
-import './projectCard.css'
+import React from 'react'
 
 const ProjectCard = ({ item }) => {
-  const [isHovered, setIsHovered] = useState(false)
-  const toggleHoverClass = (bool) => {
-    setIsHovered(bool)
-  };
-
   return (
     <div className="relative mb-9 lg:mb-0">
       <div className="w-full">
         <div className="project-info bg-white p-3">
-          <h2 className={`project-title ${isHovered ? 'hover': ''}`}>
+          <h2 className='font-light text-xl'>
             {item.title}
           </h2>
         </div>
